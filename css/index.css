@@ -1,1 +1,157 @@
 @import "./global.css";
+
+.navigation {
+  padding-top: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  padding: 10px 40px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+button.button-header {
+  background-color: #755cde;
+  color: #fff;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+/*  */
+
+.heading {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 66px 0 80px 0;
+}
+
+.heading h1 {
+  font-size: 56px;
+  line-height: 70.56px;
+}
+
+.heading p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #7a746e;
+  margin-top: 23px;
+}
+
+/* ? */
+
+.grid-parent {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-areas:
+    "gd ui ap ph ph"
+    "gd il il mg mg";
+  margin-bottom: 136px;
+}
+
+.grid-child {
+  padding: 24px;
+  font-size: 24px;
+  line-height: 30.24px;
+  color: #fff;
+}
+
+.grid-child:nth-child(1) {
+  grid-area: gd;
+  background-color: #755cde;
+  border-radius: 10px;
+  width: 354px;
+  height: 364px;
+}
+
+.grid-child:nth-child(2) {
+  grid-area: ui;
+  background-color: #f6a560;
+  border-radius: 10px;
+}
+
+.grid-child:nth-child(3) {
+  grid-area: ap;
+  background-color: #f39e9e;
+  border-radius: 10px;
+}
+
+.grid-child:nth-child(4) {
+  grid-area: ph;
+  background-color: #61c4b7;
+  border-radius: 10px;
+}
+
+.grid-child:nth-child(5) {
+  grid-area: il;
+  background-color: #eb7565;
+  border-radius: 10px;
+}
+
+.grid-child:nth-child(6) {
+  grid-area: mg;
+  background-color: #552049;
+  border-radius: 10px;
+}
+
+.grid-img1 {
+  padding-left: 180px;
+}
+.grid-img2 {
+  padding-left: 90px;
+}
+.grid-img3 {
+  padding-left: 90px;
+}
+.grid-img4 {
+  padding-left: 190px;
+}
+.grid-img5 {
+  padding-left: 225px;
+}
+.grid-img6 {
+  padding-left: 225px;
+}
+
+.grid-child h3 {
+  margin-top: 28px;
+}
+
+h3.box-1 {
+  margin-top: 90px;
+}
+
+.second-section-box {
+  display: flex;
+  align-items: center;
+  column-gap: 125px;
+}
+
+.section-box {
+  width: 480px;
+}
+
+.second-section-box h3 {
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.second-section-box p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #7a746e;
+  margin-top: 34px;
+}
+
+.button2 {
+  background-color: #f6a560;
+  font-size: 16px;
+  line-height: 28px;
+  margin-top: 32px;
+  color: #fff;
+}
