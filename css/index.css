@@ -30,6 +30,12 @@ button.button-header:hover {
   background-color: #755cde;
 }
 
+.logo-img:hover {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
 /*  */
 
 .heading {
@@ -411,6 +417,12 @@ h3.box-1 {
     padding-left: 155px;
   }
 
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .second-section-box {
     flex-direction: column;
     width: 343px;
@@ -421,9 +433,34 @@ h3.box-1 {
   .second-section-box h3 {
     font-size: 26px;
     line-height: 30.26px;
+    width: 343px;
+  }
+
+  .second-section-box p {
+    font-size: 16px;
+    line-height: 26px;
+    width: 343px;
+  }
+
+  .section-box {
+    width: 343px;
   }
 
   .img-woman {
     width: 300px;
+    left: 0;
+    margin-bottom: 40px;
+  }
+
+  .book-box h3 {
+    font-size: 26px;
+    line-height: 32.76px;
+    text-align: center;
+  }
+
+  .book-box p {
+    font-size: 16px;
+    line-height: 26px;
+    width: 295px;
   }
 }
